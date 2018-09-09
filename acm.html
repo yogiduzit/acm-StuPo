@@ -1,0 +1,342 @@
+<html lang="en">
+	<head>
+		<title>ACM Club VNIT</title>
+		<style type="text/css">
+		* {
+		font-family: Calibri;
+		}
+		html {
+		width: 100%;
+		overflow-x: hidden;
+		}
+		nav {
+		   background-color: #000000;
+			border-bottom-color: #a9a9a9;
+			border-bottom-style: solid;
+			margin-top: -10px;
+			margin-left: -10px;
+			margin-right: -10px;
+			padding: 10px;
+		}
+		a {
+		color: white;
+		}
+		.awaylink {
+			position: relative;
+			left: 940px;
+			
+		}
+		.pic1 {
+		width: 1355px;
+		height: 570px;
+		z-index: -1;
+		margin-left: -10px;
+		margin-right: -10px;
+		opacity: 1;
+		}
+		.intro {
+		z-index: 0;
+		align-content: center;
+		color:  #000000;
+		position: relative;
+		top: -400px;
+		font-family: Calibri, sans-serif;
+		height: 85%;
+ 
+		}
+		h1 {
+			font-size: 80px;
+			color: white;
+			position: relative;
+			bottom: 200px;
+		}
+		h1 + h4 {
+			font-size: 30px;
+			color: beige;
+		}
+		h4 ~ input {
+			font-size: 20px;	
+		}
+		.description {
+		align-content: center;
+		position: relative;
+		bottom: 280px;
+		height: 50px;
+		}
+		div > h2{
+			font-size: 40px;		
+		}	
+		table td	{
+		   border-style: solid;
+		}
+		.faculty {
+			background-color: #000000;	
+			margin-left: -10px;
+			margin-right : -10px;
+			}
+		.coord {
+			position: relative;
+			left: 1020px;
+			bottom: 62px;
+			color: #ffffff;
+		} 	
+		.pres {
+			color: #ffffff; 
+			position: relative;
+			top : 70px;	
+			left: 50px;	
+		}
+		.description h1 {
+			font-size: 30px;
+		}
+		.description input {
+				position: relative;
+				top: 50px;
+				right: 110px;
+		}
+		.description textarea {
+			position: relative;
+			left: 50px;
+			width: 200px;
+		}
+		.posts td {
+			width: 400px;
+			height: 200px;
+		}
+		.sidepost {
+		position: relative;
+		left: 500px;
+		}
+		.posts h4 {
+		position: relative;
+		left: 45%;
+		top: 223px;
+		font-size: 200%;
+		}
+		.photos img
+		 {
+		width: 300px;
+		height: 300px;		
+		}
+		.photos {
+			background-color: #000000;
+			color: #ffffff;	
+			margin-left: -10px;
+		 margin-right: -10px;
+		}
+		.photos td {
+		border-color: #ffffff !important;
+		width: 300px;		
+		
+		}
+		.photos h4 {
+		font-size: 200%;		
+		}
+		.urlsub {
+			width: 90px;
+			font-size: 70%		
+		}
+		.left {
+		width: 400px;		
+		}
+		.right {
+		width: 400px;
+		position: relative;
+		left: 500px;		
+		}
+		.left textarea{
+		width: 200px;	
+		}
+		</style>
+	</head>
+	<body>
+		<nav>
+		<div class="navlinks">
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#" >Members</a>
+			<a href="#" >Events</a>
+			<a class="awaylink" href="#">Contribute</a>
+			<a class="awaylink" href="#">Login</a>
+		</div>
+		</nav>
+		<form action="">	
+		<img class="pic1" src="http://princetonacm.com/images/cover.jpg" alt="Programming Club">
+		<div class="intro">
+		<center>
+		<h1>ACM VNIT</h1>
+		<h4 >The Coding Club</h4>
+		<h4 style="color: beige;">Formed <input type="date" placeholder="Enter date"></h4>
+			<input style="color: grey;" type="submit">
+			</center>
+			</div>
+			<div class="description">
+			<center>
+			<h2>The ACM VNIT Chapter</h2>
+			<textarea name="acmdes" rows="10" cols="10">Description
+			</textarea>
+
+			<input type="submit">
+			</center>
+		</div>
+		<div class="faculty">
+		<div class="pres">
+		<h4>Club President</h4>
+			<input name="prez" type="text">
+			<br>
+			<input type="submit">
+		</div>
+		<div class="coord">
+		<h4>Faculty Coordinator</h4>
+			<input name="facco" type="text">
+			<br>
+			<input type="submit">
+		</div>
+		</div>
+		<div class="posts">
+		<h4>POSTS</h4>
+		<table>
+		<tr>
+			<td>
+			<center>
+				<input name="post1" type="date" placeholder="Date">
+				<br>
+				<input name="post1d" type="text" maxlength="40" placeholder="Description of Post 1">
+				<br> 
+				<input type="submit">
+				<br>
+		
+				<img src="" alt="image1">
+				</center>
+			</td>
+			<td class="sidepost">
+			<center>
+				<input name="post2" type="date" placeholder="Date">
+				<br>
+				<input name="post2d" type="text" maxlength="40" placeholder="Description of Post 2">
+				<br>
+				<input type="submit">
+				<br>
+				<img src="" alt="image2">
+				</center>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<center>
+				<input name="post3" type="date" placeholder="Date">
+				<br>
+				<input name="post3d" type="text" maxlength="40" placeholder="Description of Post 3">
+				<br>
+				<input type="submit">
+				<br>
+				<img src="" alt="image3">
+				</center>
+			</td>
+			<td class="sidepost">
+			<center>
+				<input name="post4" type="date" placeholder="Date">
+				<br>
+				<input name="post4d" type="text" maxlength="40" placeholder="Description of Post 4">
+				<br>
+				<input type="submit">
+				<br>
+				<img src="" alt="image4">
+				</center>			
+			</td>
+		</tr>
+		</table>
+		</div>
+		<div class="photos">
+		<center>
+		<h4>Gallery</h4>
+		</center>
+		<center>
+		<table> 
+			<tr>
+				<td>
+				<img class="gallery" src="" alt="Image1">
+				
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				
+				</td>
+				<td>
+				<img class="gallery"  src="" alt="Image2">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+				<td>
+				<img class="gallery" src="" alt="Image3">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+				<td>
+				<img class="gallery" src="" alt="Image4">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+			</tr> 
+			<tr>
+				<td>
+				<img class="gallery" src="" alt="Image5">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+				<td>
+				<img class="gallery" src="" alt="Image6">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+				<td>
+				<img class="gallery" src="" alt="Image7">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+				<td>
+				<img class="gallery" src="" alt="Image8">
+				<input type="url" placeholder="Enter Image URL">
+				<input class="urlsub" type="submit">
+				</td>
+			</tr>
+		</table>
+		</center>
+		</div>
+		<table>
+			<tr>
+				<td class="left">
+				<center>
+					<h5>Contact Us</h5>
+					<input type="text" placeholder="Name">
+					<br>
+					<input type="email" placeholder="Email">
+					<br>
+					<textarea name="message" rows="5" cols="5">Message
+					</textarea>
+					<br>
+					<input type="submit">
+					</center>
+				</td>	
+				<td class="right">
+				<center>
+					<h5>Contact Info</h5>
+					<br>
+					<input type="text" placeholder="Contact no.">
+					<br>
+					<input type="email" placeholder="Email">
+					<br>
+					<input type="url" placeholder="URL">
+					<br>
+					<input type="submit">
+					<br>
+					</center>
+				</td>
+			</tr>
+		</table>
+		<div class="end">
+		<center>
+		<h6>2018 Copyright:VNIT Nagpur</h6>
+		</center>
+		</div>
+		</form>
+</html>
